@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   check_visibility_lr.c                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ngrigor <ngrigor@student.42heilbronn.de    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/22 19:53:01 by ngrigor           #+#    #+#             */
-/*   Updated: 2026/08/23 22:17:53 by ngrigor          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int		check_vis_l(int data, int line[4], int pos);
 int		check_vis_r(int data, int line[4], int pos);
 int		do_lr_vis_checks(int data[4][4], int grid[4][4], int i_x);

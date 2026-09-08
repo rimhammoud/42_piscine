@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   check_visibility_tb.c                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ngrigor <ngrigor@student.42heilbronn.de    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/23 22:16:45 by ngrigor           #+#    #+#             */
-/*   Updated: 2026/08/23 22:17:41 by ngrigor          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int		check_vis_t(int data, int grid[4][4], int pos, int i_x);
 int		check_vis_b(int data, int grid[4][4], int pos, int i_x);
 int		do_tb_vis_checks(int data[4][4], int grid[4][4], int i_y);

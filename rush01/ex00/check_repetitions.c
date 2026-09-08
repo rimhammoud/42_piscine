@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   check_repetitions.c                                :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ngrigor <ngrigor@student.42heilbronn.de    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/22 19:53:48 by ngrigor           #+#    #+#             */
-/*   Updated: 2026/08/23 16:39:35 by ngrigor          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int	check_repetition_rows(int grid[4][4]);
 int	check_repetition_columns(int grid[4][4]);
 int	do_all_repetition_checks(int grid[4][4]);
